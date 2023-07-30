@@ -18,7 +18,7 @@ public class Login extends JFrame implements ActionListener{
         image.setBounds(0, 0, 600, 500);
         add(image);
         
-        JLabel heading = new JLabel("Simple Minds");
+        JLabel heading = new JLabel("Let's Get Quizzicle!!!");
         heading.setBounds(750, 60, 300, 45);
         heading.setFont(new Font("Viner Hand ITC", Font.BOLD, 40));
         heading.setForeground(new Color(30, 144, 254));
@@ -35,14 +35,14 @@ public class Login extends JFrame implements ActionListener{
         tfname.setFont(new Font("Times New Roman", Font.BOLD, 20));
         add(tfname);
         
-        rules = new JButton("Rules");
+        rules = new JButton("Act");
         rules.setBounds(735, 270, 120, 25);
         rules.setBackground(new Color(30, 144, 254));
         rules.setForeground(Color.WHITE);
         rules.addActionListener(this);
         add(rules);
         
-        back = new JButton("Back");
+        back = new JButton("Hind");
         back.setBounds(915, 270, 120, 25);
         back.setBackground(new Color(30, 144, 254));
         back.setForeground(Color.WHITE);
