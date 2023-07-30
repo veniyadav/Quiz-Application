@@ -23,7 +23,7 @@ public class Quiz extends JFrame implements ActionListener {
     
     Quiz(String name) {
         this.name = name;
-        setBounds(50, 0, 1366, 850);
+        setBounds(50, 0, 1366, 768);
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
         
@@ -144,7 +144,7 @@ public class Quiz extends JFrame implements ActionListener {
         groupoptions.add(opt4);
         
         next = new JButton("Next");
-        next.setBounds(1100, 550, 200, 40);
+        next.setBounds(1100, 500, 200, 40);
         next.setFont(new Font("Tahoma", Font.PLAIN, 22));
         next.setBackground(new Color(30, 144, 255));
         next.setForeground(Color.WHITE);
@@ -152,7 +152,7 @@ public class Quiz extends JFrame implements ActionListener {
         add(next);
         
         lifeline = new JButton("50-50 Lifeline");
-        lifeline.setBounds(1100, 630, 200, 40);
+        lifeline.setBounds(1100, 550, 200, 40);
         lifeline.setFont(new Font("Tahoma", Font.PLAIN, 22));
         lifeline.setBackground(new Color(30, 144, 255));
         lifeline.setForeground(Color.WHITE);
@@ -160,7 +160,7 @@ public class Quiz extends JFrame implements ActionListener {
         add(lifeline);
         
         submit = new JButton("Submit");
-        submit.setBounds(1100, 710, 200, 40);
+        submit.setBounds(1100, 600, 200, 40);
         submit.setFont(new Font("Tahoma", Font.PLAIN, 22));
         submit.setBackground(new Color(30, 144, 255));
         submit.setForeground(Color.WHITE);
