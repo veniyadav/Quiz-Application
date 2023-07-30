@@ -18,7 +18,7 @@ public class Score extends JFrame implements ActionListener {
         image.setBounds(0, 200, 300, 250);
         add(image);
         
-        JLabel heading = new JLabel("Thankyou " + name + " for playing Simple Minds");
+        JLabel heading = new JLabel("Thankyou " + name + " for playing Quizzicle!!!");
         heading.setBounds(45, 30, 700, 30);
         heading.setFont(new Font("Tahoma", Font.PLAIN, 26));
         add(heading);
@@ -28,7 +28,7 @@ public class Score extends JFrame implements ActionListener {
         lblscore.setFont(new Font("Tahoma", Font.PLAIN, 26));
         add(lblscore);
         
-        JButton submit = new JButton("Play Again");
+        JButton submit = new JButton("Again try!!");
         submit.setBounds(380, 270, 120, 30);
         submit.setBackground(new Color(30, 144, 255));
         submit.setForeground(Color.WHITE);
