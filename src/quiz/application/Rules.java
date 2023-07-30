@@ -14,7 +14,7 @@ public class Rules extends JFrame implements ActionListener{
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
         
-        JLabel heading = new JLabel("Welcome " + name + " to Simple Minds");
+        JLabel heading = new JLabel("Welcome " + name + " to Simple Quizzicle!!!");
         heading.setBounds(50, 20, 700, 30);
         heading.setFont(new Font("Viner Hand ITC", Font.BOLD, 28));
         heading.setForeground(new Color(30, 144, 254));
@@ -44,7 +44,7 @@ public class Rules extends JFrame implements ActionListener{
         back.addActionListener(this);
         add(back);
         
-        start = new JButton("Start");
+        start = new JButton("Play");
         start.setBounds(400, 500, 100, 30);
         start.setBackground(new Color(30, 144, 254));
         start.setForeground(Color.WHITE);
